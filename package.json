@@ -4,7 +4,7 @@
   "scripts": {
     "build": "webpack --progress",
     "build:prod": "webpack -p --progress",
-    "serve": "webpack-dev-server --inline --progress",
+    "start": "webpack-dev-server --inline --progress",
     "postinstall": "typings install --global --save dt~core-js"
   },
   "dependencies": {
